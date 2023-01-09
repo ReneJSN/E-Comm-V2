@@ -1,0 +1,25 @@
+.BookContainer{
+    height: 200vh;
+    padding: 10rem 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.book{
+    flex: 1;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(203, 236, 225);
+}
